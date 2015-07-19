@@ -1,0 +1,159 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{12414b8e-6192-48ab-8151-31d081472517}</ProjectGuid>
+    <MainSource>StakePro.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>StakePro.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_UnitSearchPath>$(DELPHI)\Lib\Debug;C:\Program Files\Borland\Delphi7\Lib\Components\jvcl\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_UnitSearchPath>
+    <DCC_ResourcePath>$(DELPHI)\Lib\Debug;C:\Program Files\Borland\Delphi7\Lib\Components\jvcl\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_ResourcePath>
+    <DCC_ObjPath>$(DELPHI)\Lib\Debug;C:\Program Files\Borland\Delphi7\Lib\Components\jvcl\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_ObjPath>
+    <DCC_IncludePath>$(DELPHI)\Lib\Debug;C:\Program Files\Borland\Delphi7\Lib\Components\jvcl\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_IncludePath>
+    <DCC_Define>RELEASE</DCC_Define>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_Optimize>False</DCC_Optimize>
+    <DCC_SymbolReferenceInfo>2</DCC_SymbolReferenceInfo>
+    <DCC_UnitSearchPath>$(DELPHI)\Lib\Debug;C:\Program Files\Borland\Delphi7\Lib\Components\jvcl\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_UnitSearchPath>
+    <DCC_ResourcePath>$(DELPHI)\Lib\Debug;C:\Program Files\Borland\Delphi7\Lib\Components\jvcl\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_ResourcePath>
+    <DCC_ObjPath>$(DELPHI)\Lib\Debug;C:\Program Files\Borland\Delphi7\Lib\Components\jvcl\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_ObjPath>
+    <DCC_IncludePath>$(DELPHI)\Lib\Debug;C:\Program Files\Borland\Delphi7\Lib\Components\jvcl\jcl\lib\D7\debug;C:\Program Files\Borland\Delphi7\Lib\Components\JVCL300BETA1JCL190Complete\jcl\lib\d7\debug</DCC_IncludePath>
+    <DCC_Define>DEBUG</DCC_Define>
+    <DCC_UNIT_PLATFORM>False</DCC_UNIT_PLATFORM>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">True</VersionInfo><VersionInfo Name="MajorVer">1</VersionInfo><VersionInfo Name="MinorVer">1</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">67</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">2057</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">DanSoft</VersionInfoKeys><VersionInfoKeys Name="FileDescription">An editor for the NES game, Castlevania.</VersionInfoKeys><VersionInfoKeys Name="FileVersion">1.1.0.67</VersionInfoKeys><VersionInfoKeys Name="InternalName"></VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys><VersionInfoKeys Name="ProductName">Stake ~ The Castlevania Editor</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">1.1</VersionInfoKeys><VersionInfoKeys Name="Comments">An editor for the NES game, Castlevania.</VersionInfoKeys></VersionInfoKeys><Source><Source Name="MainSource">StakePro.dpr</Source></Source></Delphi.Personality><ModelSupport>False</ModelSupport></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <ItemGroup>
+    <DelphiCompile Include="StakePro.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="cConfig.pas" />
+    <DCCReference Include="cCVObjects.pas" />
+    <DCCReference Include="cCVROM.pas" />
+    <DCCReference Include="cMisc.pas" />
+    <DCCReference Include="cMusic.pas" />
+    <DCCReference Include="cROM.pas" />
+    <DCCReference Include="ctitlescreen.pas" />
+    <DCCReference Include="fAbout.pas">
+      <Form>frmAbout</Form>
+    </DCCReference>
+    <DCCReference Include="fBreakableBlockScrChan.pas">
+      <Form>frmBreakableChanger</Form>
+    </DCCReference>
+    <DCCReference Include="fcastleintro.pas">
+      <Form>frmCastleIntroEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fDamageSettings.pas">
+      <Form>frmDamageSettings</Form>
+    </DCCReference>
+    <DCCReference Include="fending.pas">
+      <Form>frmEndingEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fEndingText.pas">
+      <Form>frmEndingTextEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fEnemyEd.pas">
+      <Form>frmEnemyEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fEnemyFilter.pas">
+      <Form>frmEnemyFilter</Form>
+    </DCCReference>
+    <DCCReference Include="fEnemyPreview.pas">
+      <Form>frmEnemyPreview</Form>
+    </DCCReference>
+    <DCCReference Include="fErasePatRange.pas">
+      <Form>frmErasePatRange</Form>
+    </DCCReference>
+    <DCCReference Include="fExportLevel.pas">
+      <Form>frmExportLevel</Form>
+    </DCCReference>
+    <DCCReference Include="fFileProperties.pas">
+      <Form>frmFileProperties</Form>
+    </DCCReference>
+    <DCCReference Include="fFloatingPlatProp.pas">
+      <Form>frmFloatingPlatChange</Form>
+    </DCCReference>
+    <DCCReference Include="fGlobalEnemyDataEditor.pas">
+      <Form>frmGlobalEnemyDataEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fImportLevel.pas">
+      <Form>frmImportLevel</Form>
+    </DCCReference>
+    <DCCReference Include="fJumpTo.pas">
+      <Form>frmJumpTo</Form>
+    </DCCReference>
+    <DCCReference Include="fKeyboardLayouts.pas">
+      <Form>frmKeyboardLayouts</Form>
+    </DCCReference>
+    <DCCReference Include="fMusicPointers.pas">
+      <Form>frmMusicPointer</Form>
+    </DCCReference>
+    <DCCReference Include="fNonDoors.pas">
+      <Form>frmNonDoorOpt</Form>
+    </DCCReference>
+    <DCCReference Include="fOpenDialog.pas">
+      <Form>frmOpenDialog</Form>
+    </DCCReference>
+    <DCCReference Include="fPalette.pas">
+      <Form>frmPaletteEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fPatch.pas">
+      <Form>frmPatches</Form>
+    </DCCReference>
+    <DCCReference Include="fPreferences.pas">
+      <Form>frmPreferences</Form>
+    </DCCReference>
+    <DCCReference Include="fROMProperties.pas">
+      <Form>frmROMProperties</Form>
+    </DCCReference>
+    <DCCReference Include="fScreenChanger.pas">
+      <Form>frmScreenChanger</Form>
+    </DCCReference>
+    <DCCReference Include="fSelectMap.pas">
+      <Form>frmSelectScreen</Form>
+    </DCCReference>
+    <DCCReference Include="fSoundEffects.pas">
+      <Form>frmSoundEffects</Form>
+    </DCCReference>
+    <DCCReference Include="fSpikeCrusherScrChan.pas">
+      <Form>frmSpikeCrusherScreenChanger</Form>
+    </DCCReference>
+    <DCCReference Include="fStageProperties.pas">
+      <Form>frmStageProperties</Form>
+    </DCCReference>
+    <DCCReference Include="fStake.pas">
+      <Form>frmStake</Form>
+    </DCCReference>
+    <DCCReference Include="fTileEditor.pas">
+      <Form>frm8x8TileEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fTitleScreenEditor.pas">
+      <Form>frmTitleScreenEditor</Form>
+    </DCCReference>
+    <DCCReference Include="fTSA.pas">
+      <Form>frmTSAEditor</Form>
+    </DCCReference>
+    <DCCReference Include="uEnemyType.pas" />
+    <DCCReference Include="uglobal.pas" />
+    <DCCReference Include="ulunarcompress.pas" />
+    <None Include="Data\Akumajou Dracula (J).ini" />
+    <None Include="Data\Castlevania (E).ini" />
+    <None Include="Data\Castlevania (Konami Classics).ini" />
+    <None Include="Data\Castlevania (U) (PRG 0).ini" />
+    <None Include="Data\Castlevania (U) (PRG 1).ini" />
+  </ItemGroup>
+</Project>

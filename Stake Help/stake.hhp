@@ -1,0 +1,12 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=stake.chm
+Contents file=Table of Contents.hhc
+Display compile notes=No
+Display compile progress=Yes
+Index file=Index.hhk
+Language=0x809 English (United Kingdom)
+
+
+[INFOTYPES]
+

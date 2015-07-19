@@ -1,0 +1,78 @@
+<html>
+  <title>Stake v1.0 Help Documentation</title>
+<style TYPE=text/css>
+body 
+{
+  scrollbar-face-color:       ;
+  scrollbar-track-color:      ;
+  scrollbar-arrow-color:      ;
+  scrollbar-highlight-color:  ;
+  scrollbar-3dlight-color:    ;
+  scrollbar-shadow-color:     ;
+  scrollbar-darkshadow-color: ;
+  font-family: Tahoma;
+  font-size: 12px;
+  text-align: center;
+}
+.ttl
+{
+  font-family: Tahoma;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  border: thin solid;
+  background-color: #CCCCCC;
+}
+.tts
+{
+  font-family: Tahoma;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  border: thin solid;
+  background-color: #FFFFFF;
+}
+</style>
+<body>
+  <table width="100%" border="0" cellpadding="3">
+    <tr>
+      <td class="ttl">Stake ~ What's New</td>
+	</tr>
+  </table>
+  <p>
+  <table width="100%" border="0" cellpadding="3">
+    <tr>
+	  <td class="tts">v1.0 - The rewrite.
+<p>
+- Code of the program completely rewritten. Legacy code ported over to class based 
+  system.<br>
+- Stake will now check the ROM that you load and see if it's PRG, CHR and mapper number
+  are correct for a Castlevania ROM. If it is not correct, it will refuse to load the
+  ROM.<br>
+- Stairs now utilise the pointers to the stairs data, in preparation for the stairs
+  adding system.<br>
+- User interface tweak to the Up, Down, Left, Right button. Now, they are BitBtn's,
+  with relevant bitmaps, and they are moved to the position where scrollbars would be.<br>
+- Upgraded to GR32 1.5.1.<br>
+- Uses Sire's stair, door, and entrance icons.<br>
+- Middle button of the mouse is now used for an extra currently selected tile. If you
+  don't have a middle button, Shift + Left Click is also provided.<br>
+- Stairs adding function coded. Hardcored to allow you to have only 50 stairs per stage.
+  Changeable via a constant, but a smart hacker may want to repoint something else in that
+  bank, so I may as well leave the space for them to do so.<br>
+- Stairs deleting function coded. Utilised through CTRL + Right click on a stair.<br>
+- Minor entrance and door bugs fixed.<br>
+- ROM properties statistics replaced by a value editor.<br>
+- ROM assembly hacks are replaced by SPF files.<br>
+- You now have to have the ROM closed to change the datafile.<br>
+- Stake now displays text in the tile selector which can tell you which tile is mapped
+  to which mouse button. You can turn this off, or change the colour of the text.<br>
+- Added an 8x8 Tile Editor. This is an extremely basic tile editor for what is 
+  currently stored in the BG pattern table. Accessible via the middle clicking on the 
+  TSA editor whilst hovering over the tile you want to edit.
+<p>
+v0.9 - First release.</td>
+	</tr>
+  </table>
+</body>
+</html>
